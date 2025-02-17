@@ -3,74 +3,61 @@ import project2 from "../assets/projects/project-2.jpg";
 import project3 from "../assets/projects/project-3.jpg";
 import project4 from "../assets/projects/project-4.jpg";
 
-export const HERO_CONTENT = `I am a passionate full stack developer with a knack for crafting robust and scalable web applications. With 5 years of hands-on experience, I have honed my skills in front-end technologies like React and Next.js, as well as back-end technologies like Node.js, MySQL, PostgreSQL, and MongoDB. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
+export const HERO_CONTENT = `I am a passionate backend developer specializing in Laravel and API development. With hands-on experience in building scalable and secure applications, I focus on optimizing system performance, database management, and seamless API integrations. My goal is to leverage my expertise to create high-quality backend solutions that support dynamic and efficient web applications.`;
 
-export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer with a passion for creating efficient and user-friendly web applications. With 5 years of professional experience, I have worked with a variety of technologies, including React, Next.js, Node.js, MySQL, PostgreSQL, and MongoDB. My journey in web development began with a deep curiosity for how things work, and it has evolved into a career where I continuously strive to learn and adapt to new challenges. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. Outside of coding, I enjoy staying active, exploring new technologies, and contributing to open-source projects.`;
+export const ABOUT_TEXT = `I am a dedicated and skilled backend developer with a deep understanding of Laravel, MySQL, Redis, and Docker. Over the years, I have worked on multiple projects ranging from marketplace applications to LMS platforms, always prioritizing scalability, security, and efficiency. I am constantly learning new technologies such as event-driven systems and DevOps automation to enhance my backend expertise. Outside of work, I explore new backend technologies and contribute to open-source projects.`;
 
 export const EXPERIENCES = [
   {
-    year: "2023 - Present",
-    role: "Senior Full Stack Developer",
-    company: "Google Inc.",
-    description: `Led a team in developing and maintaining web applications using JavaScript, React.js, and Node.js. Implemented RESTful APIs and integrated with MongoDB databases. Collaborated with stakeholders to define project requirements and timelines.`,
-    technologies: ["Javascript", "React.js", "Next.js", "mongoDB"],
+    year: "2024 - Present",
+    role: "Backend Developer",
+    company: "Spad Server",
+    description: `Led backend development tasks, creating secure and scalable APIs using Laravel. Specialized in advanced database optimization, caching strategies, and seamless integration with frontend systems to enhance application performance.`,
+    technologies: ["Laravel", "MySQL", "Redis", "Docker"],
   },
   {
-    year: "2022 - 2023",
-    role: "Frontend Developer",
-    company: "Adobe",
-    description: `Designed and developed user interfaces for web applications using Next.js and React. Worked closely with backend developers to integrate frontend components with Node.js APIs. Implemented responsive designs and optimized frontend performance.`,
-    technologies: ["HTML", "CSS", "Vue.js", "mySQL"],
-  },
-  {
-    year: "2021 - 2022",
-    role: "Full Stack Developer",
-    company: "Facebook",
-    description: `Developed and maintained web applications using JavaScript, React.js, and Node.js. Designed and implemented RESTful APIs for data communication. Collaborated with cross-functional teams to deliver high-quality software products on schedule.`,
-    technologies: ["Python", "Svelte", "Three.js", "Postgres"],
-  },
-  {
-    year: "2020 - 2021",
-    role: "Software Engineer",
-    company: "Paypal",
-    description: `Contributed to the development of web applications using JavaScript, React.js, and Node.js. Managed databases and implemented data storage solutions using MongoDB. Worked closely with product managers to prioritize features and enhancements.`,
-    technologies: ["Ruby", "Rails", "PHP", "Sqlite"],
-  },
+    year: "2023 - 2024",
+    role: "Backend Developer",
+    company: "Geev Server",
+    description: `Worked on backend development with Laravel, starting as an intern and transitioning to a developer role. Focused on building and optimizing APIs, improving system scalability, and enhancing database performance while collaborating closely with the frontend team.`,
+    technologies: ["Laravel", "RESTful API", "PHP", "Git"],
+  }
 ];
 
 export const PROJECTS = [
   {
-    title: "E-Commerce Website",
+    title: "Asnaf Projects",
     image: project1,
     description:
-      "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
-    technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB"],
+      "Developed multiple platforms for business registration, LMS, and operational tools, integrating advanced caching and API optimizations.",
+    technologies: ["Laravel", "MySQL", "Redis", "Docker"],
   },
   {
-    title: "Task Management App",
+    title: "Marketplace Integration with Post Iran API",
     image: project2,
     description:
-      "An application for managing tasks and projects, with features such as task creation, assignment, and progress tracking.",
-    technologies: ["HTML", "CSS", "Angular", "Firebase"],
+      "Built a marketplace with seamless integration to Iran Post API, ensuring high-performance data handling and efficient user experience.",
+    technologies: ["Laravel", "RESTful API", "MySQL", "Redis"],
   },
   {
-    title: "Portfolio Website",
+    title: "Admin & Reporting Tools",
     image: project3,
     description:
-      "A personal portfolio website showcasing projects, skills, and contact information.",
-    technologies: ["HTML", "CSS", "React", "Bootstrap"],
+      "Developed over six custom admin dashboards and reporting tools to streamline data visualization and management for businesses.",
+    technologies: ["Laravel", "MySQL", "Docker", "PHP Unit Test"],
   },
   {
-    title: "Blogging Platform",
+    title: "Municipality Marketplace",
     image: project4,
     description:
-      "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
-    technologies: ["HTML", "CSS", "Vue.js", "Express", "mySQL"],
+      "Developed a marketplace platform for municipalities, ensuring robust backend architecture and optimized performance.",
+    technologies: ["Laravel", "Redis", "PHP", "MySQL"],
   },
 ];
 
 export const CONTACT = {
-  address: "767 Fifth Avenue, New York, NY 10153 ",
-  phoneNo: "+12 4555 666 00 ",
-  email: "me@example.com",
+  address: "",
+  phoneNo: "+09046731047",
+  email: "mahboobimohamadali@gmail.com",
 };
+    

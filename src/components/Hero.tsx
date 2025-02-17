@@ -6,7 +6,7 @@ export const Hero = () => {
     <div className="border-b border-neutral-900 pb-4">
       <div className="flex flex-wrap">
         <div className="w-full lg:w-1/2">
-          <div className="flex flex-col items-center lg:items-start">
+          <div className="flex flex-col items-center lg:items-start my-5  ">
             <h1 className="pb-16 text-6xl font-thin tracking-tight lg-mt-16 lg-text-8xl ">
               MohammadAli Mahboobi
             </h1>
@@ -18,7 +18,7 @@ export const Hero = () => {
             </p>
           </div>
         </div>
-        <div className="w-full lg:w-1/2 lg:p-8">
+        <div className="w-full lg:w-1/2 lg:p-8 ">
           <div className="flex justify-center ">
             <img src={profilePic} alt="mahboobi" />
           </div>
