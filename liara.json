@@ -1,0 +1,5 @@
+{
+  "app": "mahboubi",
+  "platform": "docker",
+  "port": 3000
+}
