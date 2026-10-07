@@ -78,19 +78,19 @@ export const projects = [
 export const skills = [
   {
     category: "Frontend",
-    items: ["React", "TypeScript", "PWA", "Vite", "Tailwind", "Zustand"],
+    items: ["React", "Next.js", "TypeScript", "PWA", "Vite", "Tailwind", "Zustand"],
   },
   {
     category: "Backend",
-    items: ["Laravel", "PHP", "Node.js", "Fastify", "REST APIs", "JWT"],
+    items: ["Laravel", "PHP", "Node.js", "Fastify", "Queues/Jobs", "Testing (PHPUnit)"],
   },
   {
     category: "Data & infra",
-    items: ["MySQL", "PostgreSQL", "Redis", "Elasticsearch", "Docker", "S3"],
+    items: ["MySQL", "PostgreSQL", "MongoDB", "Redis", "Elasticsearch", "Docker", "S3"],
   },
   {
     category: "CMS & automation",
-    items: ["WordPress", "Workflow automation", "Scripts", "GitLab CI"],
+    items: ["WordPress", "Workflow automation", "Scripts", "CI/CD"],
   },
 ] as const;
 
