@@ -82,7 +82,7 @@ export const skills = [
   },
   {
     category: "Backend",
-    items: ["Laravel", "PHP", "Node.js", "Fastify", "Queues/Jobs", "Testing (PHPUnit)"],
+    items: ["Laravel", "PHP", "Node.js", "Fastify", "RabbitMQ", "Queues/Jobs", "Testing (PHPUnit)"],
   },
   {
     category: "Data & infra",
